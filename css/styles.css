@@ -15,6 +15,7 @@ top:40%;
   height: 30%;
   font-style: italic;
   color: white;
+  text-align: center;
 }
 #class-row{
   height: 30%;
@@ -22,18 +23,9 @@ top:40%;
 #row-white{
 
 }
-#lunch{
-  background-image: url(../img/assets/foodtop/lunch.jpg);
-  height: 30%;
-  font-style: italic;
-  color: white;
 }
-#dinner{
-  background-image: url(../img/assets/foodtop/dinner.jpg);
-  height: 30%;
-  font-style: italic;
-  color: white;
-}
+
+
 #img-cont{
   padding-left: 0px;
   padding-right: 0px;
@@ -45,7 +37,7 @@ top:40%;
 }
 #row-orange{
   background-color:#F9601D;
-  width: 100%;
+  width: 30%;
   height: 50%;
   color: white;
 }
@@ -59,10 +51,8 @@ top:40%;
 .blend {
     background: red;
     display: inline-block;
-}
-
-.blend img {
     opacity: 0.5;
+    height:30%;
 }
 
 .fast-food{
@@ -71,21 +61,23 @@ top:40%;
   margin-left:5%;
 
 }
-.pic-box{
-  border: 2px;
-    border:1px solid black;
-  border-color: red;
-
-}
 #fast-food-top{
   background-image: url(../img/assets/fastFood1.jpg);
   height: 29%;
-  width: 100%;
+  width: 90%;
 }
 #fast-food-bottom{
   background-image: url(../img/assets/fastFood2.jpg);
   height: 29%;
-  width: 100%;
+  width: 90%;
+}
+.shadow{
+  box-shadow: 0 0 8px darkgrey,
+  inset 0 0 1px rgba(255,255,255,0.1);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  width: 40%;
 }
 #drinks-left{
     background-image: url(../img/assets/drink1.jpg);
@@ -106,7 +98,7 @@ top:40%;
 }
 #subscribe-section{
   background-image: url(../img/assets/backgrounds/subscribe.jpg);
-  height: 46%;
+  height: 45.5%;
   margin-top:8%;
 }
 #company-section{
@@ -118,6 +110,21 @@ inset 0 0 1px rgba(255,255,255,0.1);
 #footer{
   background-color:#F9601D;
   width: 100%;
-  height: 50%;
+  height: 48%;
+  color: white;
+}
+#logo-white{
+  float: left;
+}
+#lunch{
+  background-image: url(../img/assets/foodtop/lunch.jpg);
+  height: 30%;
+  font-style: italic;
+  color: white;
+}
+#dinner{
+  background-image: url(../img/assets/foodtop/dinner.jpg);
+  height: 30%;
+  font-style: italic;
   color: white;
 }
